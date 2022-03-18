@@ -4,74 +4,18 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
   <title>Meu Portfólio</title>
-  <style>
-
-    body {
-      font-family: "Montserrat", sans-serif;
-      background-color: rgb(124, 234, 156);
-      color: rgb(31, 32, 65);
-    }
-
-    p, li {
-      font-size: 16px;
-      color: #475550;
-    }
-
-    .hero-title {
-      color: rgb(31, 32, 65);
-      line-height: 55px;
-      font-weight: 600;
-      font-size: 45px;
-    }
-
-    .section-title {
-      line-height: 42px;
-      font-weight: 600;
-      font-size: 15px
-    }
-
-    .picture {
-      width: 200px;
-      height: 200px;
-      border-radius: 100%
-    }
-
-    .linkedin {
-      color: #fff;
-      background-color: rgb(31, 32, 65);
-      text-decoration: none;
-      line-height: 20px;
-      font-weight: 600;
-      padding: 10px 20px;
-      border-radius: 5px;
-    }
-
-    .github {
-      color: #fff;
-      background-color: rgb(31, 32, 65);
-      text-decoration: none;
-      line-height: 20px;
-      font-weight: 700;
-      padding: 10px 20px;
-      border-radius: 5px;
-    }
-
-    .picture-link {
-      color: #fff;
-      background-color: rgb(31, 32, 65);
-      text-decoration: none;
-      line-height: 20px;
-      font-weight: 700;
-      padding: 10px 20px;
-      border-radius: 5px;
-    }
-  </style>
 </head>
 <body>
-  <h1 class="hero-title">Yago Rocha de Souza Lima</h1>
-  <img class="picture" src="foto-linkedin.jpeg" alt="Selfie do Yago" width="200px">
-  <p>Olá! Me chamo Yago, sou brasileiro, mineiro de Raul Soares e estou em transição de carreira para a tecnologia, área da qual sou grande entusiasta!</p>
+  <div>
+    <h1 class="hero-title">Yago Rocha de Souza Lima</h1>
+    <div class="image-container">
+      <img id="my-picture" src="foto-linkedin.jpeg" alt="Selfie do Yago" width="200px">
+      <p id="description1">Olá! Me chamo Yago, tenho 28 anos, sou brasileiro, mineiro de Raul Soares e estou em transição de carreira para a tecnologia, área da qual sou grande entusiasta!</p>
+      <p id="description2">Uso meu tempo livre para ler, passeios ao ar livre, pedalar e estar perto da minha família e amigos.</p>
+    </div>
+  </div>
   <p class="section-title"><strong>Algumas das minhas habilidades:</strong></p>
   <ul>
     <li><em>Git</em></li>
@@ -79,9 +23,18 @@
     <li><em>HTML</em></li>
     <li><em>CSS</em></li>
     <li><em>JavaScript</em></li>
+    <li><em>React</em></li>
+    <li><em>Metodologias Ágeis</em></li>
+    <li><em>Node.js</em></li>
+    <li><em>MySQL</em></li>
+    <li><em>MongoDB</em></li>
+    <li><em>Python</em></li>
   </ul><br><br>
-  <a class="picture-link" href="foto-linked-in.jpeg">Confira minha foto!</a><br><br><br>
-  <a class="linkedin" href="https://www.linkedin.com/in/yagorsl/" target="blank">Meu LinkedIn!</a><br><br><br>
-  <a class="github" href="https://github.com/yagorsl" target="blank">Meu GitHub!</a>
+  <div class="buttons">
+    <a class="picture-link" href="foto-linked-in.jpeg">Confira minha foto!</a>
+    <a class="linkedin" href="https://www.linkedin.com/in/yagorsl/" target="blank">Meu LinkedIn!</a>
+    <a class="github" href="https://github.com/yagorsl" target="blank">Meu GitHub!</a>
+    <a class="site" href="https://www.liveplasma.com/" target="blank">Site preferido</a>
+  </div>
 </body>
 </html>

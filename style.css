@@ -1,0 +1,104 @@
+body {
+  font-family: "Montserrat", monospace;
+  background-color: rgb(124, 234, 156);
+  color: rgb(31, 32, 65);
+  padding: 2%
+}
+
+p, li {
+  font-size: 16px;
+  color: #475550;
+}
+
+.hero-title {
+  color: rgb(31, 32, 65);
+  line-height: 55px;
+  font-weight: 600;
+  font-size: 45px;
+  text-align: center;
+}
+
+#description1 {
+  position: absolute;
+  left: 32%;
+  top: 20%;
+  font-size: 15px;
+}
+
+#description2 {
+  position: absolute;
+  left: 32%;
+  top: 50%;
+  font-size: 15px;
+}
+
+.section-title {
+  line-height: 42px;
+  font-weight: 600;
+  font-size: 15px
+}
+
+#my-picture {
+  float: left;
+  width: 280px;
+  height: 280px;
+  padding: 7px;
+  background-color: rgb(31, 32, 65);
+  border-radius: 5%;
+}
+
+.image-container {
+  height: 300px;
+  position: relative;
+}
+
+.linkedin {
+  color: #fff;
+  background-color: rgb(31, 32, 65);
+  text-decoration: none;
+  line-height: 20px;
+  font-weight: 600;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.github {
+  color: #fff;
+  background-color: rgb(31, 32, 65);
+  text-decoration: none;
+  line-height: 20px;
+  font-weight: 700;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.site {
+  color: #fff;
+  background-color: rgb(31, 32, 65);
+  text-decoration: none;
+  line-height: 20px;
+  font-weight: 700;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.picture-link {
+  color: #fff;
+  background-color: rgb(31, 32, 65);
+  text-decoration: none;
+  line-height: 20px;
+  font-weight: 700;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.buttons a:hover {
+  font-size: 20px;
+  transition: 0.5s;
+}
+
+/* altera as li filhas de ul que são ímpares */
+ul li:nth-child(odd) {
+  text-transform: uppercase;
+  font-weight: 700;
+}
